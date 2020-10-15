@@ -18,10 +18,14 @@ PRODUCT_SOONG_NAMESPACES += \
     device/oneplus/opcamera
 
 PRODUCT_COPY_FILES += \
+    device/oneplus/opcamera/proprietary/lib/libCameraMDMHelper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libCameraMDMHelper.so \
+    device/oneplus/opcamera/proprietary/lib/libopcameralib-em.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libopcameralib-em.so \
     device/oneplus/opcamera/proprietary/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so \
     device/oneplus/opcamera/proprietary/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     device/oneplus/opcamera/proprietary/lib/vendor.oneplus.hardware.camera@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.hardware.camera@1.0-adapter-helper.so \
     device/oneplus/opcamera/proprietary/lib/vendor.oneplus.hardware.camera@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oneplus.hardware.camera@1.0.so \
+    device/oneplus/opcamera/proprietary/lib64/libCameraMDMHelper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libCameraMDMHelper.so \
+    device/oneplus/opcamera/proprietary/lib64/libopcameralib-em.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libopcameralib-em.so \
     device/oneplus/opcamera/proprietary/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so \
     device/oneplus/opcamera/proprietary/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so \
     device/oneplus/opcamera/proprietary/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so \
